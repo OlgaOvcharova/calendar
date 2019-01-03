@@ -127,3 +127,21 @@ function tdclick(event) {
     currentDaySelector.innerText = selectedDayNumber;
     event.stopPropagation();
 };
+
+function addTask() {
+   // var taskList = [];
+    var task1 = document.getElementById('task1').value;
+    var tasksUl = document.createElement('ul');
+    var tasks = document.getElementById('tasks');
+    tasks.appendChild(tasksUl);
+    var li = document.createElement('li');
+    document.getElementById('tasks').innerHTML = task1;
+    tasksUl.appendChild(li);
+
+    // var i;
+    // for (i = 0; i < task1.length ;i++) {
+    //     li.appendChild(document.createTextNode(task1));
+    //     taskUl.appendChild(li);
+    //     taskUl += taskList.task[i].value;
+    // }
+  }
