@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(159, 186, 236);
+}
+
+#calendar {
+    width: 235px;
+    height: 600px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 5%;
+    box-shadow: 0 4px 4px 0 rgba(50, 50, 50, 0.4);
+    align-items: center;
+    margin: auto;
+}
+
+p, div {
+    font-family: Verdana, Arial, sans-serif;
+    padding: 10px 0;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+#calendar-day {
+    font-size: 16px;
+}
+
+#calendar-date {
+    font-size: 50px;
+    padding-bottom: 0;
+}
+
+button .btn {
+    width: 20px;
+    height: 10px;
+    color: cornflowerblue;
+    border: 1px solid #fff;
+    border-radius: 5%;
+}
+
+#t thead tr:last-child {
+    font-size: small;
+} 
+
+table {
+    position: relative;
+    border-collapse: collapse;
+    margin: auto;
+    border-radius: 5%;
+}
+
+table,
+th,
+td {
+    border: 1px dotted #fff;
+    border-radius: 5%;
+    padding: 3px;
+}
+
+#today {
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
+#weekend {
+    color: rgb(238, 91, 91);
+    font-weight: bold;
+}
+
+.month-year {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.btn.btn-prev
+.btn.btn-next {
+    width: 10px;
+    height: 40px;
+    border: 2px solid #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn.btn-prev:hover
+.btn.btn-next:hover {
+    cursor: pointer; 
+} 
+
+#calendar-month-year {
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 200px;
+    padding: 10px;
+    border: 1px dotted #fff;
+    resize: vertical;
+    margin: 5px;
+}
+
+input[type=submit], textarea {
+    width: 33,33px;
+
+}
